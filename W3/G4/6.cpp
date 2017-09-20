@@ -22,7 +22,7 @@ int main(){
 	if((A && B)||C)	{
 		cout << "YES";
 		n = n + 1;
-	}
+	   }
 	else cout << "NO";
 
 	return 0;

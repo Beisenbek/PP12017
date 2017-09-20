@@ -24,7 +24,7 @@ int main(){
 		cout << "EVEN!";
 	}else{
 		cout << "ODD";
-	}
+	}	
 
 
 	return 0;
