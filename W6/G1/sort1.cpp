@@ -15,16 +15,11 @@ int main(){
 		cin >> a[i];
 	}
  
-	int index = 0;
+	sort(a,a + n);
 
-	for(int i = 1; i < n; ++i){
-		if(a[index] < a[i]){
-			index = i;
-		}
+	for(int i = 0; i < n; ++i){
+		cout << a[i] << " ";
 	}
-
-	cout << index;
-
 
 	return 0;
 }
