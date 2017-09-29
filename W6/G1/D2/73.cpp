@@ -7,7 +7,7 @@ int a[1000000];
 
 int main(){
 
-	freopen("input.txt","r",stdin);
+	freopen("input. txt","r",stdin);
 
 	int n;
 	cin >> n;
