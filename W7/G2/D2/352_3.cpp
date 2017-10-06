@@ -24,7 +24,7 @@ int main(){
 		}
 	}
 	
-	cout << mb << endl;
+	cout << a[indi][indj] << endl;
 	cout << indi << " " << indj << endl;
 	
 	
