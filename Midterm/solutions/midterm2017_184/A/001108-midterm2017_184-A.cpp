@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+	int k;
+	cin >> k;
+	for(int i=2;i<k;i++) {
+		if (k%i==0) {
+			cout << "NO";
+		} else {
+			cout << "YES";
+		}
+		return 0;
+	}
+}

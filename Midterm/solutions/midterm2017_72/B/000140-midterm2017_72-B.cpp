@@ -1,0 +1,16 @@
+#include<iostream>
+#include<cmath>
+#include<string>
+#include<algorithm>
+using namespace std;
+int main()
+{
+	int n;
+	cin>>n;
+	for (int i=100;i<=999;++i)
+	{
+		if ( (i%10+i/100+(i%100)/10 ) ==n)
+		cout<<i<<endl;
+	}
+	
+}
