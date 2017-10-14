@@ -27,6 +27,8 @@ int main(){
 		d[i] = d[i+1] = q;
 		q -= 2;
 	}
+
+
 	
 	int dr[] = {0,1,0,-1};
 	int dc[] = {1,0,-1,0};
@@ -47,7 +49,10 @@ int main(){
 			c = c + dc[index];
 			a[r][c] = 1;
 		}
-		index = (index+ 1)%4;
+		index++;
+		if(index >=4){
+			index = 0;
+		}
 	}  
 
 	for(int i = 0; i < n; ++i){
