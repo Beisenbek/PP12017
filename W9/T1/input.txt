@@ -1,0 +1,1 @@
+This constant is defined with a value of -1, which because size_t is an unsigned integral type, it is the largest possible representable value for this type.
