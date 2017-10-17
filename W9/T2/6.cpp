@@ -5,12 +5,12 @@ using namespace std;
 int main(){
 
 	string s("hello world!");
+	string t;
+	getline(cin,t);
 
-	int n = s.size();
+	s.insert(3,t);	
 
-	s.insert(3,"abcd");	
-
-	cout << s;
+	cout << s << endl;
 	
 	return 0;
 }
