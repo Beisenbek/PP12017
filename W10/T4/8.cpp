@@ -3,7 +3,6 @@
 
 using namespace std;
 
-
 int f(int x){
 	cout << x << "<-" << endl;
 	if( x == 1) return 0;
