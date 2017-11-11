@@ -19,8 +19,10 @@ int main(){
 
 	while(!isGameOver){
 		isGameOver = true;
+
 		for(int i = 0; i < v.size() - 1 && v.size() > 0; ++i){
 			int j = i + 1;
+			
 			while(j < v.size() && v[i] == v[j]){
 				j++;
 			}	
@@ -35,8 +37,6 @@ int main(){
 	}
 
 	cout << cnt << endl;
-
-	
 
 	return 0;
 }
