@@ -1,5 +1,5 @@
 /*
-first sample for STL: set
+first sample for STL: vector
 */
 
 #include <iostream>
